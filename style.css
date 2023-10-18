@@ -1,19 +1,12 @@
-/* html {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 20px;
-  background-attachment: fixed;
-} */
 body {
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 20px;
   background-attachment: fixed;
   background: linear-gradient(to top, #474644, #a6a4a5, #ffffff);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
 }
 
 .contentinnerborder ul,
@@ -59,11 +52,8 @@ body {
 }
 .welcome {
   padding: 20px 0px 10px;
-
   font-size: 12;
-
   margin-top: 20px;
-
   color: #7e7e7e;
 }
 .searchbox {
@@ -114,7 +104,7 @@ body {
 .image1 {
   display: flex;
   justify-content: flex-end;
-  padding-left: 160px;
+  padding-left: 210px;
 }
 
 .free {
@@ -138,6 +128,15 @@ body {
   border: 0px solid;
   padding: 8px;
   background-color: white;
+}
+#checkout {
+  color: red;
+  margin-left: 2px;
+}
+#searchboxbutton {
+  border-radius: 3.5px;
+  margin-left: 5px;
+  border: none;
 }
 
 .bottom {
@@ -297,7 +296,7 @@ body {
 }
 .dressing {
   padding-top: 13px;
-  padding-left: 20px;
+  padding-left: 29px;
   padding-bottom: 10px;
   color: white;
   font-weight: bold;
@@ -308,18 +307,27 @@ body {
   color: white;
   font-size: 13px;
 }
+#text {
+  color: #908f8e;
+  font-size: 15px;
+  display: block;
+  margin-left: 10px;
+}
+
+#border {
+  border: 0.5px solid #51504e;
+  border-bottom-color: transparent;
+}
 .dressingcontent p {
-  border-bottom: 1px solid;
-  border-color: #504f4d;
-  padding-bottom: 6px;
-  font-size: 16px;
+  padding-left: 10px;
+  /* border-bottom: 1px solid;
+  border-color: #504f4d; */
 }
 .dress {
   padding-left: 10px;
 }
 .contentinnerborder {
   border-top: 1px solid #d8d6d7;
-  border-bottom: 1px solid #d8d6d7;
   margin: 2px 2px 2px 0px;
   background-color: #d8d6d7;
 }
@@ -329,7 +337,7 @@ body {
   display: flex;
 }
 #ideas a {
-  color: white;
+  color: #908f8e;
   font-size: 12px;
 }
 
@@ -425,13 +433,14 @@ body {
   text-decoration: underline;
 }
 .footerrightcontent {
-  padding-left: 178px;
+  padding-left: 300px;
 }
 .footerrightcontent button {
   height: 23px;
 }
 .footerrightcontent p {
   color: #a9a7a8;
+  font-size: 11px;
 }
 .topbar li:not(:first-child)::before {
   content: "|";
