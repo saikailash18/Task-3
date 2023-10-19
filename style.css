@@ -104,7 +104,8 @@ body {
 .image1 {
   display: flex;
   justify-content: flex-end;
-  padding-left: 210px;
+  align-items: center;
+  width: 38%;
 }
 
 .free {
@@ -159,10 +160,7 @@ body {
 
 .col2 {
   height: auto;
-  max-width: 100%;
-  border-right: 1px solid;
   position: relative;
-  border-image: linear-gradient(white, #e2e2e2, #e2e2e2, white) 1;
 }
 .col3 {
   height: auto;
@@ -173,25 +171,40 @@ body {
 
 .col1 {
   position: relative;
-  border-right: 1px solid;
-  border-image: linear-gradient(white, #e2e2e2, #e2e2e2, white) 1;
+  /* border-right: 1px solid;
+  border-image: linear-gradient(white, #e2e2e2, #e2e2e2, white) 1; */
 }
 
 .text-container {
+  padding-right: 14px;
+  padding-bottom: 60px;
+  margin-top: 8px;
   position: absolute;
   top: 1px;
-  padding: 5px;
+  padding-top: 0px;
   font-size: 14px;
   align-items: center;
   color: #323232;
+  border-right: 1px solid;
+  border-color: #e5e5e5;
+}
+#keyword {
+  border-bottom: 1px;
+  border-right: 1px;
 }
 
 .text-container1 {
+  padding-right: 14px;
+  padding-bottom: 60px;
+  margin-top: 9px;
   position: absolute;
-  color: #323232;
   top: 1px;
-  padding: 8px;
+  padding-top: 0px;
   font-size: 14px;
+  align-items: center;
+  color: #323232;
+  border-right: 1px solid;
+  border-color: #e5e5e5;
 }
 .text-container2 {
   position: absolute;
