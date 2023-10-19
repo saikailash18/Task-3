@@ -130,7 +130,7 @@ body {
   background-color: white;
 }
 #checkout {
-  color: red;
+  color: indigo;
   margin-left: 2px;
 }
 #searchboxbutton {
@@ -196,7 +196,7 @@ body {
 .text-container2 {
   position: absolute;
   top: 1px;
-  padding: 3px;
+  padding: 10px;
   font-size: 12px;
   color: #323232;
   width: 180px;
@@ -229,7 +229,7 @@ body {
 }
 #album {
   background-color: #ffffff;
-  width: 172px;
+  width: 176px;
   height: 167px;
   padding-left: 123px;
 }
@@ -319,13 +319,12 @@ body {
 }
 
 #border {
-  border: 0.5px solid #51504e;
-  border-bottom-color: transparent;
+  border: 0.5px solid #51504f;
 }
 .dressingcontent p {
   padding-left: 10px;
   /* border-bottom: 1px solid;
-  border-color: #504f4d; */
+    border-color: #504f4d; */
 }
 .dress {
   padding-left: 10px;
