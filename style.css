@@ -95,17 +95,15 @@ body {
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 .img1 {
   padding-right: 10px;
   position: absolute;
 }
-
 .image1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 38%;
+  width: 40%;
 }
 
 .free {
@@ -336,8 +334,6 @@ body {
 }
 .dressingcontent p {
   padding-left: 10px;
-  /* border-bottom: 1px solid;
-    border-color: #504f4d; */
 }
 .dress {
   padding-left: 10px;
